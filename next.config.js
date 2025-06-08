@@ -5,8 +5,8 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/назва-вашого-репозиторію' : '',
-  basePath: process.env.NODE_ENV === 'production' ? '/назва-вашого-репозиторію' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/my-nextjs-app' : '',
+  basePath: process.env.NODE_ENV === 'production' ? '/my-nextjs-app' : '',
 }
 
 module.exports = nextConfig
